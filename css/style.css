@@ -1,0 +1,94 @@
+.wrapper {
+  background-color: #000;
+  margin: auto;
+}
+
+.container {
+  width: 960px;
+  height: 883px;
+  margin: 0 auto;
+  background: url("../img/background.png") no-repeat center;
+}
+
+/* HEADER */
+header {
+  padding-top: 32px;
+}
+
+.logo {
+  margin-left: 71px;
+  height: 147px;
+  width: 263px;
+  background: url("../img/logo.png") no-repeat center, url("../img/palmtree.png") no-repeat right;
+  text-align: center;
+  padding-top: 29px;
+}
+
+header
+h2 {
+  font-family: Tahoma;
+  color: #e6e6e6;
+  font-size: 10px;
+  line-height: 26px;
+}
+
+header
+p {
+  font-family: Tahoma;
+  color: #e6e6e6;
+  font-size: 8px;
+  line-height: 14px;
+}
+
+.contacts {
+  float: right;
+  margin-top: 120px;
+  margin-right: 123px;
+}
+
+/* MAIN */
+main {
+  overflow: hidden;
+}
+
+figure {
+    background: url("../img/ramka.png") no-repeat center; /* Цвет фона */
+    padding: 1px; /* Поля вокруг */
+    display: block; /* Блочный элемент */
+    height: 184px;
+    width: 270px; /* Ширина */
+    float: left; /* Блоки выстраиваются по горизонтали */
+    margin: 0 12px 42px 0; /* Отступы */
+    text-align: center; /* Выравнивание по центру */
+   }
+
+   figure
+   p {
+   }
+
+figcaption {
+  font-family: Tahoma;
+  color:  #e6e6e6;
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+   img {
+     height: 178px;
+     width: 261px;
+     margin-top: 3px;
+   }
+
+
+/* FOOTER */
+footer {
+  margin-top: 89px;
+  text-align: center;
+}
+
+footer
+p {
+  font-family: Tahoma;
+  color:  #e6e6e6;
+  font-size: 10px;
+}
